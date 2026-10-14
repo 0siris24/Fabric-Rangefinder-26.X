@@ -7,7 +7,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-	// Test commit
+	// Test Comment
 public class SpyglassRangefinder implements ModInitializer {
 	public static final String MOD_ID = "rangefindermod";
 
