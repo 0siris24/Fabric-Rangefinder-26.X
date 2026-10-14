@@ -18,6 +18,9 @@
 		"main": [
 			"net.osiris.rangefinder.SpyglassRangefinder"
 		],
+		"client": [
+			"net.osiris.rangefinder.SpyglassRangefinderClient"
+		],
 		"fabric-datagen": [
 			"net.osiris.rangefinder.SpyglassRangefinderDataGenerator"
 		]
