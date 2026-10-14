@@ -8,5 +8,7 @@ public class SpyglassRangefinderClient implements ClientModInitializer {
         SpyglassRangefinder.LOGGER.info("Rangefinder client loaded!");
         RangefinderOverlay.register();
         SpyglassToggle.register();
+        ClubCycle.register();
+        RangefinderConfig.load();
     }
 }

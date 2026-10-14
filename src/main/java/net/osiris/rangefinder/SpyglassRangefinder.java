@@ -23,6 +23,10 @@ public class SpyglassRangefinder implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		//ZoomState.adjust(100);
+		//LOGGER.info("Zoom: " + ZoomState.getZoom());
+		ZoomState.adjust(-100);
+		LOGGER.info("Zoom: " + ZoomState.getZoom());
 	}
 
 	public static Identifier id(String path) {

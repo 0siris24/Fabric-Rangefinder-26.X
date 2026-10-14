@@ -1,7 +1,6 @@
 package net.osiris.rangefinder;
 
 public final class DistanceUtil {
-    public static final double MAX_RANGE = 50.0;
 
     private DistanceUtil() {}
 
@@ -10,6 +9,6 @@ public final class DistanceUtil {
     }
 
     public static boolean isInRange(double distance) {
-        return distance <= MAX_RANGE;
+        return distance <= RangefinderConfig.get().club.getMaxRange();
     }
 }

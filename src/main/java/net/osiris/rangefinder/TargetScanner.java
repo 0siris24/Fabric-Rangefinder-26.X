@@ -7,7 +7,7 @@ import net.minecraft.world.phys.HitResult;
 
 public final class TargetScanner {
     // How far we search for a target. Must be larger than DistanceUtil.MAX_RANGE.
-    private static final double SCAN_RANGE = 128.0;
+    public static final double SCAN_RANGE = 320.0;
 
     private TargetScanner() {}
 

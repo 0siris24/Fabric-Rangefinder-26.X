@@ -10,7 +10,7 @@ import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.world.item.Items;
 
 public final class SpyglassToggle {
-    private static final KeyMapping.Category CATEGORY =
+     static final KeyMapping.Category CATEGORY =
             KeyMapping.Category.register(SpyglassRangefinder.id("controls"));
 
     private static KeyMapping toggleKey;
