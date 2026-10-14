@@ -23,9 +23,22 @@ public class SpyglassRangefinder implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+		LOGGER.info(formatDistance(0));
+		LOGGER.info(formatDistance(12.04));
+		LOGGER.info(formatDistance(12.99));
 	}
 
 	public static Identifier id(String path) {
 		return Identifier.fromNamespaceAndPath(MOD_ID, path);
+	}
+
+	public static String formatDistance(double distance) {
+		return String.format("%.1f blocks", distance);
+	}
+
+	public static final double MAX_RANGE = 50.0;
+
+	public static boolean isInRange(double distance) {
+		return  distance <= MAX_RANGE;
 	}
 }
