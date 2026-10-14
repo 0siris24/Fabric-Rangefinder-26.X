@@ -13,7 +13,7 @@
 	},
 	"license": "MIT-License",
 	"icon": "assets/rangefindermod/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
 		"main": [
 			"net.osiris.rangefinder.SpyglassRangefinder"
