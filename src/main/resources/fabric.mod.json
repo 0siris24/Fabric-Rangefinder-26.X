@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "rangefindermod",
+	"version": "${version}",
+	"name": "Spyglass Rangefinder",
+	"description": "This is my first mod, I hope you enjoy it!",
+	"authors": [
+		"Osiris24!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "MIT-License",
+	"icon": "assets/rangefindermod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.osiris.rangefinder.SpyglassRangefinder"
+		],
+		"fabric-datagen": [
+			"net.osiris.rangefinder.SpyglassRangefinderDataGenerator"
+		]
+	},
+	"mixins": [
+		"rangefindermod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
